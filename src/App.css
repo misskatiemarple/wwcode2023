@@ -1,49 +1,22 @@
-App-header {
-  max-width: 600px;
+.App {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
-html {
-  box-sizing: border-box;
+.navbar {
+  padding: 10px 50px;
 }
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body,
-html {
-  margin: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.welcome-box {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-h1,
-h2 {
+.hero {
   text-align: center;
+  margin: 50px;
 }
 
-.button-box,
-.search-bar {
-  display: flex;
-  padding: 5pt;
+.hero-h1,
+.hero-h2 {
+  text-align: center;
+  color: red;
 }
 
-.content-box {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
 ul li {
   list-style-type: none;
 }
@@ -52,6 +25,6 @@ ul li {
   display: flex;
   flex: 0;
   justify-content: space-between;
-  padding: 10pt;
-  background-color: grey;
+  padding: 10pt 50px;
+  background-color: #f8f9fac2;
 }

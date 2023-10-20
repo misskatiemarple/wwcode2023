@@ -15,12 +15,13 @@ export default function SearchEngineSkills() {
     <form onSubmit={handleSubmit}>
       <input
         type="search"
-        placeholder="Previous work, skills, etc."
+        placeholder="Previous work, skills..."
         autoFocus={true}
         onChange={updateSkill}
+        className="p-1 m-2"
       />
       <button type="button" class="btn btn-primary">
-        Primary
+        Search
       </button>
     </form>
   );

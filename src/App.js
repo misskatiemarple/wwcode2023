@@ -1,12 +1,13 @@
-import "./App.css";
 import SearchEngineSkills from "./SearchEngineSkills.js";
 import SearchNoSkills from "./SearchNoSkills";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
+import "./App.css";
+
 function App() {
   return (
-    <div className="App">
+    <div className="Page">
       <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">
@@ -49,55 +50,58 @@ function App() {
           </div>
         </nav>
       </div>
-      <header className="App-header">
-        <h1>Welcome Back To The Workforce, Mama</h1>
-        <h2>Let's find your next dream job!</h2>
-      </header>
-      <body>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <SearchEngineSkills />
-        <SearchNoSkills />
-      </body>
-      <footer>
-        <div class="footer">
-          <div class="address-box">
-            <ul>
-              <li>Address Line 1</li>
-              <li>Address Line 2</li>
-              <li>Address 3</li>
-            </ul>
-          </div>
-          <div class="code-msg-box">
-            <p>
-              Coded by:{" "}
-              <a href="#" target="_blank" rel="nonreferrer">
-                Katie
-              </a>{" "}
-              and
-              <a
-                href="https://github.com/coffeeB4Ugo"
-                target="_blank"
-                rel="nonreferrer"
-              >
-                Kalie
-              </a>
-            </p>
-          </div>
-          <div class="brand-stamp-box">
-            <p>WWCode</p>
-            <p>Tokyo</p>
-          </div>
+      <div className="App">
+        <div className="hero">
+          <h1 className="hero-h1">Welcome Back To The Workforce, Mama</h1>
+          <h2 className="hero-h2">Let's find your next dream job!</h2>
         </div>
-      </footer>
+        <body>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <SearchEngineSkills />
+          <SearchNoSkills />
+        </body>
+      </div>
+      <div class="footer">
+        <div class="address-box">
+          <ul>
+            <li>Address Line 1</li>
+            <li>Address Line 2</li>
+            <li>Address 3</li>
+          </ul>
+        </div>
+        <div class="code-msg-box">
+          <p>
+            Coded by:{" "}
+            <a
+              href="https://github.com/misskatiemarple/wwcode2023"
+              target="_blank"
+              rel="nonreferrer"
+            >
+              Katie
+            </a>{" "}
+            and
+            <a
+              href="https://github.com/coffeeB4Ugo"
+              target="_blank"
+              rel="nonreferrer"
+            >
+              Kalie
+            </a>
+          </p>
+        </div>
+        <div class="brand-stamp-box">
+          <p>WWCode</p>
+          <p>Tokyo</p>
+        </div>
+      </div>
     </div>
   );
 }
