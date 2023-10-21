@@ -1,4 +1,4 @@
-.App {
+.page-container {
   max-width: 980px;
   margin: 0 auto;
 }
@@ -6,19 +6,44 @@
 .navbar {
   padding: 10px 50px;
 }
-.hero {
-  text-align: center;
-  margin: 50px;
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/public/mama\ back\ to\ work.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 80px;
+  margin-bottom: 50px;
 }
 
-.hero-h1,
-.hero-h2 {
+.hero-h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1;
+  margin: 30px 0;
   text-align: center;
-  color: red;
+}
+.hero-h3 {
+  font-weight: 900px;
+  font-size: 82px;
+  letter-spacing: 5px;
+  line-height: 1;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.hero-h4 {
+  font-weight: 800px;
+  font-size: 44px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
 }
 
 ul li {
   list-style-type: none;
+  text-align: center;
 }
 
 .footer {
@@ -27,4 +52,12 @@ ul li {
   justify-content: space-between;
   padding: 10pt 50px;
   background-color: #f8f9fac2;
+}
+.code-msg-box {
+  text-align: center;
+}
+
+.link-override {
+  color: #212529;
+  text-decoration: none;
 }
