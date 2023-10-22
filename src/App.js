@@ -71,7 +71,7 @@ function App() {
           </body>
         </div>
       </div>
-      <div class="footer">
+      <div class="footer mt-3">
         <div class="address-box">
           <ul>
             <li>A Better World</li>
@@ -86,7 +86,7 @@ function App() {
             <a
               href="https://github.com/misskatiemarple/wwcode2023"
               target="_blank"
-              rel="nonreferrer"
+              rel="noreferrer"
               className="link-override"
             >
               Katie{" "}
@@ -95,7 +95,7 @@ function App() {
             <a
               href="https://github.com/coffeeB4Ugo"
               target="_blank"
-              rel="nonreferrer"
+              rel="noreferrer"
               className="link-override"
             >
               Kalie
@@ -107,7 +107,7 @@ function App() {
               <a
                 href="https://www.womenwhocode.com/network/tokyo/"
                 target="_blank"
-                rel="nonrefferer"
+                rel="norefferer"
                 className="link-override"
               >
                 Women Who Code Tokyo
