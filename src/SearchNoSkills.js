@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
-import MamaKeySkills from "./MamaKeySkills.js";
-/* Why doesn't this Mama key skills component connect in teh Router?*/
+
+/* Why doesn't this Mama key skills component connect in the Router?*/
 import "./SearchNoSkills.css";
 
 export default function SearchNoSkills() {
@@ -10,12 +10,12 @@ export default function SearchNoSkills() {
       <Router>
         <button type="button" class="btn btn-primary">
           {" "}
-          <Link to="/component-link" className="button-link">
+          <Link to="/mama" className="button-link">
             What Are My Skills?
           </Link>
         </button>
         <Routes>
-          <Route path="/MamaKeySkills.js" component={<MamaKeySkills />} />
+          <Route path="/mama" element={<MamaKeySkills />} />
         </Routes>
       </Router>
     </div>
